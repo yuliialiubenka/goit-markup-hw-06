@@ -783,3 +783,15 @@ img {
 	color: var(--white);
     margin: 24px auto 0 auto;
 }
+.modal__contact-form-btn:hover {
+    background: var(--pressed-state);
+}
+.modal__contact-form-btn:focus {
+    background: var(--pressed-state);
+}
+.modal__contact-form-btn:active {
+    background: var(--pressed-state);
+}
+.modal__contact-form-btn:focus-visible {
+    background: var(--pressed-state);
+}
