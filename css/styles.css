@@ -664,12 +664,13 @@ img {
     top: 24px;
     right: 24px;
     cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .modal__btn:hover, .modal__btn:active, .modal__btn:focus, .modal__btn:focus-visible {
     background-color: var(--pressed-state);
     color: var(--white);
     border-color: transparent;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    border: none;
 }
 .modal__icon {
     fill: currentColor;
